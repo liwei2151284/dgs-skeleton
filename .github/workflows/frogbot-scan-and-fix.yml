@@ -41,7 +41,7 @@ jobs:
           # [Mandatory]
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JF_DEPS_REPO: "dro-backend-maven-virtual"
+          JF_DEPS_REPO: "maven-virtual"
           # [Optional, default: https://api.github.com]
           # API endpoint to GitHub
           # JF_GIT_API_ENDPOINT: https://github.example.com
